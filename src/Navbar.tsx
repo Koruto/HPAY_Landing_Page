@@ -8,7 +8,7 @@ const Navbar = () => {
     <header className="py-9 pr-9 pl-20 bg-background shadow-[0px_4px_4px_rgba(0,0,0,0.25)] font-poppins max-md:px-5 ">
       <nav className="flex gap-5">
         <div className="flex grow gap-10 justify-between items-center mt-1.5 text-base whitespace-nowrap text-[#E0E0E0]">
-          <img loading="lazy" src={Logo3D} />
+          <img loading="lazy" src={Logo3D} alt="3D Logo" />
           <div className="mt-3 font-medium text-white">
             <div>Swap</div>
             <img loading="lazy" src={Bottom_Line} className="mt-2" />
@@ -46,8 +46,8 @@ const Navbar = () => {
                 <img loading="lazy" src={Bottom_Line} className=" w-full" />
               </div>
               <div className="flex gap-2 justify-between self-stretch px-1 py-0.5">
-                <img loading="lazy" src={Vertical_Bar} className="" />
-                <img loading="lazy" src={Shopping_Cart} className="" />
+                <img loading="lazy" src={Vertical_Bar} alt="Vertical Bar" />
+                <img loading="lazy" src={Shopping_Cart} alt="Shopping Cart" />
               </div>
             </div>
           </div>
