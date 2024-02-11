@@ -6,23 +6,23 @@ import Shopping_Cart from './assets/Shopping_Cart.svg';
 const Navbar = () => {
   return (
     <header className="py-9 pr-9 pl-20 bg-background shadow-[0px_4px_4px_rgba(0,0,0,0.25)] font-poppins max-md:px-5 ">
-      <nav className="flex gap-5">
-        <div className="flex grow gap-10 justify-between items-center mt-1.5 text-base whitespace-nowrap text-[#E0E0E0]">
+      <nav className="flex gap-5 flex-col xl:flex-row">
+        <div className="flex flex-col md:flex-row grow gap-10 md:justify-between items-center mt-1.5 text-base whitespace-nowrap text-[#E0E0E0]">
           <img loading="lazy" src={Logo3D} alt="3D Logo" />
           <div className="mt-3 font-medium text-white">
             <div>Swap</div>
             <img loading="lazy" src={Bottom_Line} className="mt-2" />
           </div>
-          <a className="self-stretch my-auto" href="#">
+          <a className="md:self-stretch my-auto" href="#">
             Rewards
           </a>
-          <a className="self-stretch my-auto" href="#">
+          <a className="md:self-stretch my-auto" href="#">
             Products
           </a>
-          <a className="self-stretch my-auto" href="#">
+          <a className="md:self-stretch my-auto" href="#">
             Launchpad
           </a>
-          <a className="grow self-stretch my-auto" href="#">
+          <a className="grow md:self-stretch my-auto" href="#">
             Leaderboard
           </a>
         </div>
@@ -43,7 +43,7 @@ const Navbar = () => {
               </button>
               <div className="flex flex-col self-stretch my-auto text-sm font-medium tracking-tight leading-4 text-center">
                 <span>En</span>
-                <img loading="lazy" src={Bottom_Line} className=" w-full" />
+                <img loading="lazy" src={Bottom_Line} className="w-6" />
               </div>
               <div className="flex gap-2 justify-between self-stretch px-1 py-0.5">
                 <img loading="lazy" src={Vertical_Bar} alt="Vertical Bar" />

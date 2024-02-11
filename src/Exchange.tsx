@@ -13,23 +13,23 @@ import Repeat from './assets/Repeat.svg';
 
 const Exchange = () => {
   return (
-    <section className="m-20 flex justify-between space-x-20">
-      <div className="space-y-4 border border-solid border-[#B59770] rounded-xl p-10 h-full">
-        <h2 className="font-bold text-xl">HPAY | Exchange</h2>
+    <section className="m-20 flex justify-between space-x-20 flex-col gap-20 xl:gap-0 xl:flex-row ">
+      <div className="space-y-4 border border-solid border-[#B59770] rounded-xl p-10 h-full xl:text-base md:text-sm">
+        <h2 className="font-bold xl:text-xl md:text-lg">HPAY | Exchange</h2>
         <div className="flex items-center justify-between px-4 py-2 bg-[linear-gradient(137deg,rgba(52,52,52,0.50)_3.89%,rgba(61,61,61,0.20)_100%)]">
           <img loading="lazy" src={Card_Icon} alt="Gold Card Icon" />
           <h1 className=" text-secondary">Buy HedgePay</h1>
           <img loading="lazy" src={Gold_Arrow} alt="Gold Right Arrow" />
         </div>
         <div>
-          <div className="flex gap-5 items-center justify-between px-4 py-2 text-base rounded-md bg-[linear-gradient(137deg,rgba(52,52,52,0.50)_3.89%,rgba(61,61,61,0.20)_100%)]">
+          <div className="flex gap-5 items-center justify-between whitespace-nowrap px-4 py-2 rounded-md bg-[linear-gradient(137deg,rgba(52,52,52,0.50)_3.89%,rgba(61,61,61,0.20)_100%)]">
             <img loading="lazy" src={Share} alt="Share Logo" />
             <span>Transfer Gateway</span>
             <img loading="lazy" src={Arrow_Right} alt="Right Arrow" />
           </div>
         </div>
         <div>
-          <div className="flex gap-5 items-center justify-between px-4 py-2 text-base rounded-md bg-[linear-gradient(137deg,rgba(52,52,52,0.50)_3.89%,rgba(61,61,61,0.20)_100%)]">
+          <div className="flex gap-5 items-center justify-between px-4 py-2 rounded-md bg-[linear-gradient(137deg,rgba(52,52,52,0.50)_3.89%,rgba(61,61,61,0.20)_100%)]">
             <img
               loading="lazy"
               src={PresententationChart}
@@ -40,7 +40,7 @@ const Exchange = () => {
           </div>
         </div>
         <div>
-          <div className="flex gap-5 items-center justify-between px-4 py-2 text-base rounded-md bg-[linear-gradient(137deg,rgba(52,52,52,0.50)_3.89%,rgba(61,61,61,0.20)_100%)]">
+          <div className="flex gap-5 items-center justify-between whitespace-nowrap px-4 py-2 rounded-md bg-[linear-gradient(137deg,rgba(52,52,52,0.50)_3.89%,rgba(61,61,61,0.20)_100%)]">
             <img loading="lazy" src={Arrow_Up_Down} alt="Up Down Arrow" />
             <span>Buy with Transak</span>
             <img loading="lazy" src={Arrow_Right} alt="Right Arrow" />
@@ -48,7 +48,7 @@ const Exchange = () => {
         </div>
       </div>
 
-      <div className="flex flex-col justify-start max-w-[400px]">
+      <div className="flex flex-col justify-start xl:max-w-[400px]">
         <div className="px-3 py-2 w-full">
           <h1 className="text-4xl font-bold">Aggregator DEX</h1>
           <p className="mt-4 text-lg text-faded">
@@ -69,7 +69,7 @@ const Exchange = () => {
         </div>
       </div>
 
-      <form className="rounded-lg border border-solid border-[#B59770] p-5 space-y-5 w-[400px]">
+      <form className="rounded-lg border border-solid border-[#B59770] p-5 space-y-5 xl:w-[400px]">
         <div className=" space-y-2">
           <div className="flex text-xs text-faded leading-4 whitespace-nowrap space-x-2">
             <div>Your Balance:</div>
