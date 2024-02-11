@@ -6,6 +6,7 @@ export default {
       primary: '#5c6ac4',
       secondary: '#ecc94b',
       background: '#001312',
+      faded: '#AEAEAE',
     },
     fontFamily: {
       poppins: ['Poppins', 'sans-serif'],
